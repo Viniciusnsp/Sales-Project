@@ -10,14 +10,14 @@ public class Client implements Serializable {
     protected String zipCode; //cep
     protected String address; //endereço
     protected String neighborhood; //bairro
-    protected String city;
-    protected String individualRegistration;
-    protected String identityDocument;
-    protected String cellPhone;
-    protected String phone;
-    protected int number;
-    protected String complement;
-    protected String state;
+    protected String city;//cidade
+    protected String individualRegistration;//cpf
+    protected String identityDocument;//rg
+    protected String cellPhone;//celular
+    protected String phone;//telefone
+    protected int number;//numero
+    protected String complement;//complemento
+    protected String state;//estado
 
     public int getId() {
         return id;
